@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+}
+#main-header{
+    height: 65vh;
+    background-image: url(images/portfoliobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: 0%;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+}
+.nav-menu{
+    transition: color 0.5s , border-bottom 4s; 
+}
+.horizontal-list li a:hover{
+    color: sandybrown;
+}
+.myname{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.social-icons{
+    height: 150px;
+    width: 550px;
+    margin-left: 720px;
+}
+.social-icons li a i{
+    margin: 25px;
+    border-radius: 50%;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 4px 8px sandybrown;
+}
+.social-icons  a{
+    text-decoration: none;
+}
+.profilepic{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -25vh;
+    border-radius: 50%;
+    margin-left: 790px;
+}
+.profilepic img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 4px sandybrown;
+}
+#about{
+    height: auto;
+    width: 50%;
+    position: relative;
+}
+.about-me{
+    height: 400px;
+    width:700px;
+    margin-top: 250px;
+    margin-left: 1000px;
+    padding: 25px;
+}
+.about-me p{
+    color: grey;
+    font-size: 25px;
+    margin: 35px;
+}
+.about-me p b{
+    color: sandybrown;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: black;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 40px;
+    color: sandybrown;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skills-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill-progress{
+    width: 7rem;
+    height: 1.5rem;
+    background-color: white;
+}
+.bgsandybrown{
+    background-image: linear-gradient( rgb(211, 108, 18), sandybrown, white);   
+}
+.eighty{
+    width: 80%;
+    height: inherit;
+}
+.eightyfive{
+    width: 85%;
+    height: inherit;
+}
+.thirty{
+    width: 30%;
+    height: inherit;
+}
+.skill-name{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-left: 20px;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+.timeline-box{
+    position: relative;
+    width: 40%;
+    margin-left: 5%;
+    min-height: 150px;
+    margin: 5px;
+    
+}
+.timeline-box:nth-child(2n){
+    left: 55%;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: sandybrown;
+    position: absolute;
+    left:-14%;
+    top: 30%; 
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: sandybrown;
+    position: absolute;
+    right:-25.3%;
+    top: 30%;
+}
+.timeline-divider{
+    position: absolute;
+    height: 80%;
+    border: 3px dashed sandybrown;
+    width: 0px;
+    top: 10%;
+    left: 50%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+}
+#experiance p{
+    color: grey;
+    font-size: 25px;
+    margin: 35px;
+}
+#qualification{
+    font-size: 25px;
+}
+#qualification-table{
+  border-collapse: collapse;
+  margin-bottom: 75px;
+}
+#qualification-table td, #qualification-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#qualification-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#qualification-table tr:hover {background-color: #ddd;}
+#qualification-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: sandybrown;
+    color: white;
+}
+#certification p{
+    color: grey;
+    font-size: 25px;
+    margin-left: 200px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+#Personal-info p{
+    color: grey;
+    font-size: 25px;
+    margin-left: 200px;
+    line-height: 1.6;  
+    margin-bottom: 35px;     
+}
